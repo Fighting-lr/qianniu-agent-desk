@@ -1,0 +1,3 @@
+[submodule "qdrant"]
+	path = qdrant
+	url = git@github.com:huabeitech/agent-desk-qdrant.git

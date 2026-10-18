@@ -1,0 +1,64 @@
+.DS_Store
+.worktrees
+.idea
+.vscode/
+.pnpm-store
+
+# Database & runtime state (Never commit database files or backups)
+data/
+*.db
+*.db-wal
+*.db-shm
+*.db.bak
+
+# Configs with secrets (Only track config.example.yaml)
+config/config.yaml*
+!config/config.example.yaml
+
+/include/
+/lib/
+
+# Binaries & build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+dist/
+build/
+bin/
+__debug_bin*
+server.exe
+eval.exe
+arkpoc.exe
+server
+eval
+arkpoc
+seed
+
+
+# Node & Next.js build artifacts
+node_modules/
+.next/
+web/.next*
+web/.turbo
+web/out/*
+!web/out/.gitkeep
+.task/
+*.tsbuildinfo
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+test-reports
+web/public/flowgram-editor/
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+
+.superpowers
+agent-desk

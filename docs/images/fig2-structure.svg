@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="ar2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#0E3B4A"/>
+    </marker>
+  </defs>
+  <text x="450" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#0E3B4A">产品结构：千牛宿主内的双视角布局</text>
+
+  <!-- 千牛宿主 -->
+  <rect x="20" y="40" width="860" height="356" rx="10" fill="none" stroke="#0E3B4A" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="38" y="66" font-size="13" font-weight="700" fill="#0E3B4A">千牛工作台（宿主 · 坐席视角 /workbench）</text>
+
+  <!-- 左：核心聊天区 -->
+  <rect x="44" y="84" width="380" height="290" rx="8" fill="#F2F4F5" stroke="#8A969B"/>
+  <text x="234" y="112" text-anchor="middle" font-size="13" font-weight="700" fill="#5B686D">核心聊天区（千牛原有）</text>
+  <g font-size="12" fill="#7C878C" text-anchor="middle">
+    <rect x="68"  y="130" width="332" height="46" rx="6" fill="#FFFFFF" stroke="#C9D2D6"/>
+    <text x="234" y="150" fill="#5B686D">左侧：会话列表（处理中 / 待接入 …）</text>
+    <rect x="68"  y="186" width="332" height="46" rx="6" fill="#FFFFFF" stroke="#C9D2D6"/>
+    <text x="234" y="206" fill="#5B686D">中部：聊天窗口 + 输入框</text>
+    <rect x="68"  y="242" width="332" height="46" rx="6" fill="#FFFFFF" stroke="#C9D2D6"/>
+    <text x="234" y="262" fill="#5B686D">客服既有的全部操作习惯保持不变</text>
+    <text x="234" y="330" font-size="11.5" fill="#8A969B">本插件不遮挡、不劫持、不改变此区域</text>
+  </g>
+
+  <!-- 右：本插件 -->
+  <rect x="476" y="84" width="380" height="290" rx="8" fill="#FFFFFF" stroke="#0E3B4A" stroke-width="1.6"/>
+  <text x="666" y="108" text-anchor="middle" font-size="13" font-weight="700" fill="#0E3B4A">数据共情者 · 右侧辅助面板（本插件）</text>
+  <!-- 四个 tab -->
+  <g font-size="12" text-anchor="middle">
+    <rect x="492" y="122" width="86" height="30" rx="6" fill="#0E3B4A"/>
+    <text x="535" y="141" fill="#FFFFFF" font-weight="700">会话洞察</text>
+    <rect x="582" y="122" width="86" height="30" rx="6" fill="#E8F1F3"/>
+    <text x="625" y="141" fill="#0E3B4A">客户全景</text>
+    <rect x="672" y="122" width="86" height="30" rx="6" fill="#E8F1F3"/>
+    <text x="715" y="141" fill="#0E3B4A">回复建议</text>
+    <rect x="762" y="122" width="78" height="30" rx="6" fill="#E8F1F3"/>
+    <text x="801" y="141" fill="#0E3B4A">会话信息</text>
+  </g>
+  <g font-size="12" fill="#5B686D">
+    <rect x="492" y="164" width="348" height="58" rx="6" fill="#FDF3E7" stroke="#D9822B"/>
+    <text x="504" y="187" fill="#B36A17" font-weight="700">危急 · 不良反应-过敏就医</text>
+    <text x="504" y="206" fill="#7A5450" font-size="11">风险事件：等级 / 分值 / 原因 / 命中词 / 证据一致性</text>
+    <rect x="492" y="232" width="348" height="46" rx="6" fill="#F7FAFB" stroke="#C9D2D6"/>
+    <text x="504" y="252" fill="#5B686D">客户全景：访问次数 · 累计消费 · 工单 · 敏感标签</text>
+    <rect x="492" y="288" width="348" height="70" rx="6" fill="#F7FAFB" stroke="#C9D2D6"/>
+    <text x="504" y="310" fill="#5B686D">回复建议（三形态）：</text>
+    <text x="504" y="328" fill="#5B686D" font-size="11">中低危 → 专业/亲切/简洁 三档话术 · 可一键复制</text>
+    <text x="504" y="346" fill="#5B686D" font-size="11">危急/高危 → 锁定态，仅展示 AI 处置要点</text>
+  </g>
+
+  <!-- 中间连接 -->
+  <g stroke="#0E3B4A" stroke-width="1.6" marker-end="url(#ar2)">
+    <line x1="424" y1="200" x2="472" y2="200"/>
+    <line x1="472" y1="216" x2="424" y2="216"/>
+  </g>
+  <text x="448" y="194" text-anchor="middle" font-size="10.5" fill="#0E3B4A">选中会话</text>
+  <text x="448" y="232" text-anchor="middle" font-size="10.5" fill="#0E3B4A">只读辅助</text>
+
+  <!-- 下：主管看板 -->
+  <rect x="20" y="428" width="860" height="106" rx="10" fill="#FFFFFF" stroke="#D9822B" stroke-width="1.6"/>
+  <text x="40" y="456" font-size="13" font-weight="700" fill="#B36A17">主管风险看板（独立页 /dashboard/risk-board）</text>
+  <g font-size="12" fill="#5B686D" text-anchor="middle">
+    <rect x="44"  y="470" width="190" height="46" rx="6" fill="#F7FAFB" stroke="#C9D2D6"/>
+    <text x="139" y="490">顶部统计卡 × 4</text>
+    <text x="139" y="506" font-size="10.5" fill="#8A969B">总会话 / 风险事件 / 待处置</text>
+    <rect x="250" y="470" width="250" height="46" rx="6" fill="#F7FAFB" stroke="#C9D2D6"/>
+    <text x="375" y="490">等级分布条</text>
+    <text x="375" y="506" font-size="10.5" fill="#8A969B">危急→无 计数与占比</text>
+    <rect x="516" y="470" width="340" height="46" rx="6" fill="#F7FAFB" stroke="#C9D2D6"/>
+    <text x="686" y="490">风险会话列表（危急置顶 + 色条）</text>
+    <text x="686" y="506" font-size="10.5" fill="#8A969B">场景 / 证据不一致标记 / 操作：认领 · 标记已处置</text>
+  </g>
+
+  <!-- 面板与看板的数据连接 -->
+  <g stroke="#D9822B" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#ar2)">
+    <line x1="666" y1="374" x2="666" y2="424"/>
+  </g>
+  <text x="678" y="404" font-size="10.5" fill="#B36A17">消费同一套风险数据</text>
+</svg>

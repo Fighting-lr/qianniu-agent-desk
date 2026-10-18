@@ -1,0 +1,5386 @@
+[
+  {
+    "session_id": "S00010",
+    "buyer_nickname": "喵e**",
+    "scene_major": "不良反应",
+    "scene_minor": "泛红刺痒",
+    "order_no": "6920932618149621705",
+    "ticket_no": "BLFY49330652",
+    "ticket_type": "adverse",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-05 14:25:33",
+    "last_message_at": "2026-05-05 14:38:59",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 65,
+        "reason": "场景判定为「泛红刺痒」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY49330652"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 398.0,
+    "demo_pinned": true,
+    "demo_note": "安全风险最高等级：需立即介入"
+  },
+  {
+    "session_id": "S00015",
+    "buyer_nickname": "芝g**",
+    "scene_major": "不良反应",
+    "scene_minor": "过敏就医",
+    "order_no": "6920797553890280371",
+    "ticket_no": "BLFY61738711",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 16:33:33",
+    "last_message_at": "2026-05-05 16:42:39",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 68,
+        "reason": "买家原文命中硬风险词：过敏",
+        "hard_words": [
+          "过敏"
+        ],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：315",
+        "hard_words": [
+          "315"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：赔偿",
+        "hard_words": [
+          "赔偿"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY61738711"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 199.0,
+    "demo_pinned": true,
+    "demo_note": "安全风险最高等级：需立即介入"
+  },
+  {
+    "session_id": "S00058",
+    "buyer_nickname": "钟c**",
+    "scene_major": "不良反应",
+    "scene_minor": "泛红刺痒",
+    "order_no": "6920159387903549147",
+    "ticket_no": "BLFY13780992",
+    "ticket_type": "adverse",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-07 17:31:31",
+    "last_message_at": "2026-05-07 17:43:15",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 76,
+        "reason": "买家原文命中硬风险词：过敏、过敏了",
+        "hard_words": [
+          "过敏",
+          "过敏了"
+        ],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY13780992"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 199.0,
+    "demo_pinned": false,
+    "demo_note": "安全风险最高等级：需立即介入"
+  },
+  {
+    "session_id": "S00070",
+    "buyer_nickname": "程d**",
+    "scene_major": "不良反应",
+    "scene_minor": "闷痘爆痘",
+    "order_no": "6920651249457349792",
+    "ticket_no": "BLFY72189798",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 11:17:35",
+    "last_message_at": "2026-05-08 11:29:08",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 65,
+        "reason": "场景判定为「闷痘爆痘」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY72189798"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": "安全风险最高等级：需立即介入"
+  },
+  {
+    "session_id": "S00079",
+    "buyer_nickname": "不**",
+    "scene_major": "不良反应",
+    "scene_minor": "泛红刺痒",
+    "order_no": "6920676929380273867",
+    "ticket_no": "BLFY28579679",
+    "ticket_type": "adverse",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-08 17:38:49",
+    "last_message_at": "2026-05-08 17:51:19",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 76,
+        "reason": "买家原文命中硬风险词：过敏、过敏了",
+        "hard_words": [
+          "过敏",
+          "过敏了"
+        ],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY28579679"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 196.0,
+    "demo_pinned": false,
+    "demo_note": "安全风险最高等级：需立即介入"
+  },
+  {
+    "session_id": "S00082",
+    "buyer_nickname": "方b**",
+    "scene_major": "不良反应",
+    "scene_minor": "泛红刺痒",
+    "order_no": "6920505423981949613",
+    "ticket_no": "BLFY70604980",
+    "ticket_type": "adverse",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-08 19:12:11",
+    "last_message_at": "2026-05-08 19:25:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 65,
+        "reason": "场景判定为「泛红刺痒」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY70604980"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00089",
+    "buyer_nickname": "袁**",
+    "scene_major": "不良反应",
+    "scene_minor": "闷痘爆痘",
+    "order_no": "6920908093470756886",
+    "ticket_no": "BLFY53935414",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 20:48:47",
+    "last_message_at": "2026-05-08 20:55:59",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 65,
+        "reason": "场景判定为「闷痘爆痘」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY53935414"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00098",
+    "buyer_nickname": "半**",
+    "scene_major": "不良反应",
+    "scene_minor": "闷痘爆痘",
+    "order_no": "6920772456259000742",
+    "ticket_no": "BLFY50417006",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 11:02:48",
+    "last_message_at": "2026-05-09 11:11:10",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 65,
+        "reason": "场景判定为「闷痘爆痘」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY50417006"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00154",
+    "buyer_nickname": "蒋a**",
+    "scene_major": "不良反应",
+    "scene_minor": "过敏就医",
+    "order_no": "6920073444593979097",
+    "ticket_no": "BLFY27898314",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 16:20:30",
+    "last_message_at": "2026-05-11 16:29:13",
+    "image_paths": [
+      "mock_images/consult_card/S00154_03.jpg"
+    ],
+    "image_types": [
+      "咨询卡"
+    ],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "买家原文命中硬风险词：去医院、皮肤科",
+        "hard_words": [
+          "去医院",
+          "皮肤科"
+        ],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 28,
+        "reason": "买家原文命中硬风险词：态度",
+        "hard_words": [
+          "态度"
+        ],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY27898314"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00268",
+    "buyer_nickname": "半d**",
+    "scene_major": "不良反应",
+    "scene_minor": "过敏就医",
+    "order_no": "6920156290763740456",
+    "ticket_no": "BLFY41232690",
+    "ticket_type": "adverse",
+    "message_count": 9,
+    "buyer_message_count": 5,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-15 13:12:43",
+    "last_message_at": "2026-05-15 13:18:52",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 68,
+        "reason": "买家原文命中硬风险词：过敏",
+        "hard_words": [
+          "过敏"
+        ],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：315",
+        "hard_words": [
+          "315"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：赔偿",
+        "hard_words": [
+          "赔偿"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 28,
+        "reason": "买家原文命中硬风险词：态度",
+        "hard_words": [
+          "态度"
+        ],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "critical",
+        "score": 100,
+        "reason": "存在不良反应工单记录",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "ticket",
+        "evidence_ref": "BLFY41232690"
+      }
+    ],
+    "overall_risk": "critical",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00023",
+    "buyer_nickname": "孙a**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹少件",
+    "order_no": "6920381227503627930",
+    "ticket_no": "WL698348054",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 21:35:16",
+    "last_message_at": "2026-05-05 21:42:03",
+    "image_paths": [
+      "mock_images/short_item/S00023_04.jpg"
+    ],
+    "image_types": [
+      "少件"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「包裹少件」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 70,
+        "reason": "存在物流工单记录",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "ticket",
+        "evidence_ref": "WL698348054"
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 149.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00024",
+    "buyer_nickname": "王**",
+    "scene_major": "售后退货",
+    "scene_minor": "仅退款疑似异常",
+    "order_no": "6920681898386530047",
+    "ticket_no": "KOC3195289",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 21:38:52",
+    "last_message_at": "2026-05-05 21:46:58",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「仅退款疑似异常」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00029",
+    "buyer_nickname": "雷**",
+    "scene_major": "退款打款",
+    "scene_minor": "退款金额少退补打",
+    "order_no": "6920316481414437285",
+    "ticket_no": "HV7607477945",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 23:03:56",
+    "last_message_at": "2026-05-05 23:13:58",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00029_06.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 70,
+        "reason": "场景判定为「退款金额少退补打」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 1598.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00032",
+    "buyer_nickname": "郑f**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款迟迟不到账",
+    "order_no": "6920174711577070228",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-06 12:17:21",
+    "last_message_at": "2026-05-06 12:22:43",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「退款迟迟不到账」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 149.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00034",
+    "buyer_nickname": "王h**",
+    "scene_major": "订单服务",
+    "scene_minor": "直播间承诺纠纷",
+    "order_no": "6920272791550024041",
+    "ticket_no": "BH758933100232",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-06 14:29:22",
+    "last_message_at": "2026-05-06 14:36:26",
+    "image_paths": [
+      "mock_images/live_promise/S00034_03.jpg"
+    ],
+    "image_types": [
+      "直播承诺"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 85,
+        "reason": "场景判定为「直播间承诺纠纷」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00040",
+    "buyer_nickname": "邵g**",
+    "scene_major": "售后退货",
+    "scene_minor": "仅退款疑似异常",
+    "order_no": "6920804559991914721",
+    "ticket_no": "KOC5432473",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-06 20:02:37",
+    "last_message_at": "2026-05-06 20:08:32",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「仅退款疑似异常」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00048",
+    "buyer_nickname": "秦h**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款迟迟不到账",
+    "order_no": "6920071889989423403",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 14:12:59",
+    "last_message_at": "2026-05-07 14:17:16",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「退款迟迟不到账」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00051",
+    "buyer_nickname": "邱**",
+    "scene_major": "物流异常",
+    "scene_minor": "显示签收未收到",
+    "order_no": "6920660899105701722",
+    "ticket_no": "WL840101369",
+    "ticket_type": "logistics",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-07 15:45:03",
+    "last_message_at": "2026-05-07 15:53:58",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 28,
+        "reason": "买家原文命中硬风险词：态度",
+        "hard_words": [
+          "态度"
+        ],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「显示签收未收到」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00059",
+    "buyer_nickname": "魏h**",
+    "scene_major": "售后退货",
+    "scene_minor": "仅退款疑似异常",
+    "order_no": "6920621990731110707",
+    "ticket_no": "KOC7263722",
+    "ticket_type": "return",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 17:32:52",
+    "last_message_at": "2026-05-07 17:42:00",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「仅退款疑似异常」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 199.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00068",
+    "buyer_nickname": "李f**",
+    "scene_major": "售后退货",
+    "scene_minor": "使用不适退货",
+    "order_no": "6920887080308099214",
+    "ticket_no": "KOC3556428",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-08 09:46:24",
+    "last_message_at": "2026-05-08 09:53:29",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「使用不适退货」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 256.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00075",
+    "buyer_nickname": "不**",
+    "scene_major": "物流异常",
+    "scene_minor": "显示签收未收到",
+    "order_no": "6920980177556899249",
+    "ticket_no": "WL885208335",
+    "ticket_type": "logistics",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-08 14:01:40",
+    "last_message_at": "2026-05-08 14:13:20",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 28,
+        "reason": "买家原文命中硬风险词：态度",
+        "hard_words": [
+          "态度"
+        ],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「显示签收未收到」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00093",
+    "buyer_nickname": "吕**",
+    "scene_major": "物流异常",
+    "scene_minor": "物流停滞疑似丢件",
+    "order_no": "6920489188245931763",
+    "ticket_no": "WL364504665",
+    "ticket_type": "logistics",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-08 21:50:44",
+    "last_message_at": "2026-05-08 22:02:20",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「物流停滞疑似丢件」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 578.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00097",
+    "buyer_nickname": "刘**",
+    "scene_major": "订单服务",
+    "scene_minor": "直播间承诺纠纷",
+    "order_no": "6920664286319046356",
+    "ticket_no": "BH459193582329",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-09 10:56:01",
+    "last_message_at": "2026-05-09 11:01:50",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 85,
+        "reason": "场景判定为「直播间承诺纠纷」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00103",
+    "buyer_nickname": "半a**",
+    "scene_major": "订单服务",
+    "scene_minor": "直播间承诺纠纷",
+    "order_no": "6920411786607705281",
+    "ticket_no": "BH227871524735",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-09 15:02:00",
+    "last_message_at": "2026-05-09 15:10:04",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 85,
+        "reason": "场景判定为「直播间承诺纠纷」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00108",
+    "buyer_nickname": "ma**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹破损",
+    "order_no": "6920462428734306567",
+    "ticket_no": "WL171140109",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 19:15:07",
+    "last_message_at": "2026-05-09 19:25:58",
+    "image_paths": [
+      "mock_images/broken_parcel/S00108_03.jpg"
+    ],
+    "image_types": [
+      "包裹破损"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 28,
+        "reason": "买家原文命中硬风险词：态度",
+        "hard_words": [
+          "态度"
+        ],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 70,
+        "reason": "存在物流工单记录",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "ticket",
+        "evidence_ref": "WL171140109"
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [
+      "收到「包裹破损」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 699.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00134",
+    "buyer_nickname": "林**",
+    "scene_major": "产品咨询",
+    "scene_minor": "孕妇可用咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-10 16:45:57",
+    "last_message_at": "2026-05-10 16:52:11",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「孕妇可用咨询」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00156",
+    "buyer_nickname": "邹**",
+    "scene_major": "售后退货",
+    "scene_minor": "拆封少件拒收",
+    "order_no": "6920012167512343101",
+    "ticket_no": "KOC8204206",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-11 16:49:41",
+    "last_message_at": "2026-05-11 16:57:08",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「拆封少件拒收」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00183",
+    "buyer_nickname": "不e**",
+    "scene_major": "退款打款",
+    "scene_minor": "售后期关闭过敏退款",
+    "order_no": "6920531485420932389",
+    "ticket_no": "HV8605622861",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-12 15:47:19",
+    "last_message_at": "2026-05-12 15:55:04",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「售后期关闭过敏退款」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 196.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00200",
+    "buyer_nickname": "韩**",
+    "scene_major": "退款打款",
+    "scene_minor": "退款金额少退补打",
+    "order_no": "6920790799280944930",
+    "ticket_no": "HV6129329823",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-12 22:24:19",
+    "last_message_at": "2026-05-12 22:32:24",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00200_06.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 70,
+        "reason": "场景判定为「退款金额少退补打」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00223",
+    "buyer_nickname": "卢d**",
+    "scene_major": "售后退货",
+    "scene_minor": "拆封少件拒收",
+    "order_no": "6920650877391748582",
+    "ticket_no": "KOC4591299",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-13 18:52:12",
+    "last_message_at": "2026-05-13 18:59:13",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「拆封少件拒收」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 98.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00232",
+    "buyer_nickname": "魏e**",
+    "scene_major": "售后退货",
+    "scene_minor": "使用不适退货",
+    "order_no": "6920712466483288684",
+    "ticket_no": "KOC3853509",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-13 22:50:31",
+    "last_message_at": "2026-05-13 22:58:31",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「使用不适退货」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 118.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00277",
+    "buyer_nickname": "周h**",
+    "scene_major": "售后退货",
+    "scene_minor": "拆封少件拒收",
+    "order_no": "6920478617542655464",
+    "ticket_no": "KOC8458982",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-15 15:59:10",
+    "last_message_at": "2026-05-15 16:08:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「拆封少件拒收」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 318.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00285",
+    "buyer_nickname": "彭g**",
+    "scene_major": "售后退货",
+    "scene_minor": "使用不适退货",
+    "order_no": "6920709137708142651",
+    "ticket_no": "KOC9911507",
+    "ticket_type": "return",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-15 20:53:12",
+    "last_message_at": "2026-05-15 21:02:56",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 75,
+        "reason": "场景判定为「使用不适退货」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 236.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00303",
+    "buyer_nickname": "邵**",
+    "scene_major": "产品咨询",
+    "scene_minor": "孕妇可用咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-16 16:30:03",
+    "last_message_at": "2026-05-16 16:38:17",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「孕妇可用咨询」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00336",
+    "buyer_nickname": "邓b**",
+    "scene_major": "退款打款",
+    "scene_minor": "退款金额少退补打",
+    "order_no": "6920761109981038788",
+    "ticket_no": "HV4259994933",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-17 20:40:22",
+    "last_message_at": "2026-05-17 20:47:19",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "high",
+        "score": 70,
+        "reason": "场景判定为「退款金额少退补打」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 259.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00362",
+    "buyer_nickname": "姚b**",
+    "scene_major": "退款打款",
+    "scene_minor": "售后期关闭过敏退款",
+    "order_no": "6920747449279518304",
+    "ticket_no": "HV8045912170",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-18 20:20:42",
+    "last_message_at": "2026-05-18 20:28:31",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00362_06.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「售后期关闭过敏退款」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 1598.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00381",
+    "buyer_nickname": "郭a**",
+    "scene_major": "退款打款",
+    "scene_minor": "售后期关闭过敏退款",
+    "order_no": "6920914776440905581",
+    "ticket_no": "HV1005604873",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-19 15:44:33",
+    "last_message_at": "2026-05-19 15:53:22",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00381_06.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「售后期关闭过敏退款」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 118.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00474",
+    "buyer_nickname": "爱**",
+    "scene_major": "产品咨询",
+    "scene_minor": "孕妇可用咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-23 09:56:37",
+    "last_message_at": "2026-05-23 10:04:48",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "high",
+        "score": 80,
+        "reason": "场景判定为「孕妇可用咨询」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "high",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00001",
+    "buyer_nickname": "邓e**",
+    "scene_major": "补发换货",
+    "scene_minor": "破损换货",
+    "order_no": "6920185815517983396",
+    "ticket_no": "BH919209358357",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 10:18:45",
+    "last_message_at": "2026-05-05 10:27:37",
+    "image_paths": [
+      "mock_images/broken_pump/S00001_03.jpg"
+    ],
+    "image_types": [
+      "泵头破损"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「破损换货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 259.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00003",
+    "buyer_nickname": "周h**",
+    "scene_major": "订单服务",
+    "scene_minor": "保价申请被拒",
+    "order_no": "6920186002093740058",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 11:11:56",
+    "last_message_at": "2026-05-05 11:21:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「保价申请被拒」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 258.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00004",
+    "buyer_nickname": "徐**",
+    "scene_major": "补发换货",
+    "scene_minor": "错发色号",
+    "order_no": "6920906372438643491",
+    "ticket_no": "BH699081699885",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 11:53:20",
+    "last_message_at": "2026-05-05 11:59:21",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「错发色号」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 338.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00006",
+    "buyer_nickname": "孔**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹少件",
+    "order_no": "6920163607220643752",
+    "ticket_no": "WL190449095",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 12:06:42",
+    "last_message_at": "2026-05-05 12:15:14",
+    "image_paths": [
+      "mock_images/short_item/S00006_04.jpg"
+    ],
+    "image_types": [
+      "少件"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：催",
+        "hard_words": [
+          "催"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「包裹少件」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 129.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00007",
+    "buyer_nickname": "李c**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920080450685916204",
+    "ticket_no": "BH142092289687",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 12:41:28",
+    "last_message_at": "2026-05-05 12:46:36",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00008",
+    "buyer_nickname": "卢b**",
+    "scene_major": "产品咨询",
+    "scene_minor": "正品鉴别咨询",
+    "order_no": "6920931187555789136",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 13:06:55",
+    "last_message_at": "2026-05-05 13:11:50",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「正品鉴别咨询」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 298.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00011",
+    "buyer_nickname": "熊g**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹破损",
+    "order_no": "6920654901868624795",
+    "ticket_no": "WL101842381",
+    "ticket_type": "logistics",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 15:13:33",
+    "last_message_at": "2026-05-05 15:21:47",
+    "image_paths": [
+      "mock_images/broken_parcel/S00011_03.jpg"
+    ],
+    "image_types": [
+      "包裹破损"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：什么时候",
+        "hard_words": [
+          "什么时候"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「包裹破损」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「包裹破损」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 369.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00018",
+    "buyer_nickname": "胡**",
+    "scene_major": "补发换货",
+    "scene_minor": "错发色号",
+    "order_no": "6920842605036203732",
+    "ticket_no": "BH697811247059",
+    "ticket_type": "resend",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 19:50:07",
+    "last_message_at": "2026-05-05 19:58:20",
+    "image_paths": [
+      "mock_images/wrong_shade/S00018_03.jpg"
+    ],
+    "image_types": [
+      "错发色号"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「错发色号」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「错发色号」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00020",
+    "buyer_nickname": "张a**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920701895536536178",
+    "ticket_no": "BH689247868745",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 21:05:14",
+    "last_message_at": "2026-05-05 21:11:06",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00022",
+    "buyer_nickname": "夏**",
+    "scene_major": "产品咨询",
+    "scene_minor": "成分与肤质适配",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 21:20:26",
+    "last_message_at": "2026-05-05 21:27:36",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「成分与肤质适配」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00027",
+    "buyer_nickname": "崔**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920673361421035519",
+    "ticket_no": "BH879131096583",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 22:38:29",
+    "last_message_at": "2026-05-05 22:45:55",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 98.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00031",
+    "buyer_nickname": "兔f**",
+    "scene_major": "补发换货",
+    "scene_minor": "错发色号",
+    "order_no": "6920724864492688525",
+    "ticket_no": "BH695419716917",
+    "ticket_type": "resend",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 10:20:03",
+    "last_message_at": "2026-05-06 10:28:54",
+    "image_paths": [
+      "mock_images/wrong_shade/S00031_03.jpg"
+    ],
+    "image_types": [
+      "错发色号"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「错发色号」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「错发色号」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 338.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00033",
+    "buyer_nickname": "曹**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹少件",
+    "order_no": "6920675656664226609",
+    "ticket_no": "WL120890165",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 14:25:52",
+    "last_message_at": "2026-05-06 14:35:29",
+    "image_paths": [
+      "mock_images/short_item/S00033_04.jpg"
+    ],
+    "image_types": [
+      "少件"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：催",
+        "hard_words": [
+          "催"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「包裹少件」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「少件」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00035",
+    "buyer_nickname": "山c**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920420870390416560",
+    "ticket_no": "BH652810902299",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 14:52:11",
+    "last_message_at": "2026-05-06 15:02:16",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00037",
+    "buyer_nickname": "爱h**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920674255353974071",
+    "ticket_no": "BH121200223854",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-06 15:17:32",
+    "last_message_at": "2026-05-06 15:22:27",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00038",
+    "buyer_nickname": "郭a**",
+    "scene_major": "退款打款",
+    "scene_minor": "退货运费报销",
+    "order_no": "6920947277927059788",
+    "ticket_no": "HV5725862244",
+    "ticket_type": "payout",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 16:20:44",
+    "last_message_at": "2026-05-06 16:27:57",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00038_04.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 50,
+        "reason": "场景判定为「退货运费报销」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 259.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00039",
+    "buyer_nickname": "钱**",
+    "scene_major": "补发换货",
+    "scene_minor": "错发色号",
+    "order_no": "6920907092800867709",
+    "ticket_no": "BH712927465857",
+    "ticket_type": "resend",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 16:38:57",
+    "last_message_at": "2026-05-06 16:45:47",
+    "image_paths": [
+      "mock_images/wrong_shade/S00039_03.jpg"
+    ],
+    "image_types": [
+      "错发色号"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「错发色号」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「错发色号」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00042",
+    "buyer_nickname": "萧g**",
+    "scene_major": "订单服务",
+    "scene_minor": "保价申请被拒",
+    "order_no": "6920692330341928503",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 22:15:44",
+    "last_message_at": "2026-05-06 22:23:54",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「保价申请被拒」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00046",
+    "buyer_nickname": "易**",
+    "scene_major": "退款打款",
+    "scene_minor": "退货运费报销",
+    "order_no": "6920230064007212002",
+    "ticket_no": "HV5972454959",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 12:13:28",
+    "last_message_at": "2026-05-07 12:22:58",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 50,
+        "reason": "场景判定为「退货运费报销」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00047",
+    "buyer_nickname": "秦h**",
+    "scene_major": "产品咨询",
+    "scene_minor": "正品鉴别咨询",
+    "order_no": "6920495008855930915",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 13:05:46",
+    "last_message_at": "2026-05-07 13:10:16",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「正品鉴别咨询」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00050",
+    "buyer_nickname": "杨d**",
+    "scene_major": "物流异常",
+    "scene_minor": "包裹破损",
+    "order_no": "6920950249822526532",
+    "ticket_no": "WL968485853",
+    "ticket_type": "logistics",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 15:28:48",
+    "last_message_at": "2026-05-07 15:37:38",
+    "image_paths": [
+      "mock_images/broken_parcel/S00050_03.jpg"
+    ],
+    "image_types": [
+      "包裹破损"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：什么时候",
+        "hard_words": [
+          "什么时候"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「包裹破损」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「包裹破损」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1598.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00053",
+    "buyer_nickname": "赖**",
+    "scene_major": "退款打款",
+    "scene_minor": "大促价保补差",
+    "order_no": "6920432671071165790",
+    "ticket_no": "HV1579311943",
+    "ticket_type": "payout",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 16:15:33",
+    "last_message_at": "2026-05-07 16:22:39",
+    "image_paths": [
+      "mock_images/live_promise/S00053_05.jpg"
+    ],
+    "image_types": [
+      "直播承诺"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「大促价保补差」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 298.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00054",
+    "buyer_nickname": "兔e**",
+    "scene_major": "补发换货",
+    "scene_minor": "错发色号",
+    "order_no": "6920914367097434550",
+    "ticket_no": "BH331527974180",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 16:17:40",
+    "last_message_at": "2026-05-07 16:23:48",
+    "image_paths": [
+      "mock_images/wrong_shade/S00054_03.jpg"
+    ],
+    "image_types": [
+      "错发色号"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「错发色号」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「错发色号」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00055",
+    "buyer_nickname": "韩**",
+    "scene_major": "退款打款",
+    "scene_minor": "大促价保补差",
+    "order_no": "6920036676846030516",
+    "ticket_no": "HV8934839806",
+    "ticket_type": "payout",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 16:30:39",
+    "last_message_at": "2026-05-07 16:36:19",
+    "image_paths": [
+      "mock_images/live_promise/S00055_05.jpg"
+    ],
+    "image_types": [
+      "直播承诺"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「大促价保补差」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00060",
+    "buyer_nickname": "冯**",
+    "scene_major": "订单服务",
+    "scene_minor": "保价申请被拒",
+    "order_no": "6920514762118795062",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 18:32:19",
+    "last_message_at": "2026-05-07 18:41:14",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「保价申请被拒」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 258.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00064",
+    "buyer_nickname": "彭**",
+    "scene_major": "补发换货",
+    "scene_minor": "少发正装",
+    "order_no": "6920154185938638662",
+    "ticket_no": "BH877117054803",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 20:58:31",
+    "last_message_at": "2026-05-07 21:05:02",
+    "image_paths": [
+      "mock_images/missing_item/S00064_03.jpg"
+    ],
+    "image_types": [
+      "漏发"
+    ],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：投诉",
+        "hard_words": [
+          "投诉"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「少发正装」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 369.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00065",
+    "buyer_nickname": "魏e**",
+    "scene_major": "补发换货",
+    "scene_minor": "少发正装",
+    "order_no": "6920589945455410994",
+    "ticket_no": "BH453897226151",
+    "ticket_type": "resend",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 09:02:38",
+    "last_message_at": "2026-05-08 09:09:02",
+    "image_paths": [
+      "mock_images/missing_item/S00065_03.jpg"
+    ],
+    "image_types": [
+      "漏发"
+    ],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：投诉",
+        "hard_words": [
+          "投诉"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「少发正装」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00071",
+    "buyer_nickname": "刘e**",
+    "scene_major": "退款打款",
+    "scene_minor": "大促价保补差",
+    "order_no": "6920359873712366198",
+    "ticket_no": "HV7126972014",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 11:44:48",
+    "last_message_at": "2026-05-08 11:53:57",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「大促价保补差」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00072",
+    "buyer_nickname": "苏b**",
+    "scene_major": "退款打款",
+    "scene_minor": "退货运费报销",
+    "order_no": "6920880404719813361",
+    "ticket_no": "HV7649616157",
+    "ticket_type": "payout",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 11:45:07",
+    "last_message_at": "2026-05-08 11:54:54",
+    "image_paths": [
+      "mock_images/refund_screenshot/S00072_04.jpg"
+    ],
+    "image_types": [
+      "退款截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 50,
+        "reason": "场景判定为「退货运费报销」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00073",
+    "buyer_nickname": "邵**",
+    "scene_major": "产品咨询",
+    "scene_minor": "成分与肤质适配",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 13:03:00",
+    "last_message_at": "2026-05-08 13:10:13",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「成分与肤质适配」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00074",
+    "buyer_nickname": "田g**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920870726042170818",
+    "ticket_no": "BH218088700239",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-08 13:04:52",
+    "last_message_at": "2026-05-08 13:10:25",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 459.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00076",
+    "buyer_nickname": "贺**",
+    "scene_major": "售后退货",
+    "scene_minor": "质疑正品退货",
+    "order_no": "6920527885849331832",
+    "ticket_no": "KOC2531140",
+    "ticket_type": "return",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 15:52:30",
+    "last_message_at": "2026-05-08 16:00:06",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：举报",
+        "hard_words": [
+          "举报"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：假货",
+        "hard_words": [
+          "假货"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 259.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00078",
+    "buyer_nickname": "苏d**",
+    "scene_major": "售后退货",
+    "scene_minor": "质疑正品退货",
+    "order_no": "6920762215935119531",
+    "ticket_no": "KOC6843505",
+    "ticket_type": "return",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 17:01:51",
+    "last_message_at": "2026-05-08 17:10:11",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：举报",
+        "hard_words": [
+          "举报"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：假货",
+        "hard_words": [
+          "假货"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 228.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00083",
+    "buyer_nickname": "毛**",
+    "scene_major": "产品咨询",
+    "scene_minor": "成分与肤质适配",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 19:32:39",
+    "last_message_at": "2026-05-08 19:44:26",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "safety",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「成分与肤质适配」，归属安全风险",
+        "hard_words": [],
+        "suggested_action": "立即引导不良反应登记，24 小时内专员回访",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00087",
+    "buyer_nickname": "一e**",
+    "scene_major": "补发换货",
+    "scene_minor": "少发正装",
+    "order_no": "6920480727847614042",
+    "ticket_no": "BH567865392726",
+    "ticket_type": "resend",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 20:01:20",
+    "last_message_at": "2026-05-08 20:10:12",
+    "image_paths": [
+      "mock_images/missing_item/S00087_03.jpg"
+    ],
+    "image_types": [
+      "漏发"
+    ],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：投诉",
+        "hard_words": [
+          "投诉"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「少发正装」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [
+      "收到「漏发」图片，但文本未提及相关描述，建议索要对应部位特写"
+    ],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 699.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00090",
+    "buyer_nickname": "廖**",
+    "scene_major": "补发换货",
+    "scene_minor": "漏发赠品",
+    "order_no": "6920073870440867672",
+    "ticket_no": "BH450849382497",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 21:04:35",
+    "last_message_at": "2026-05-08 21:10:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「漏发赠品」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 699.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00115",
+    "buyer_nickname": "雾b**",
+    "scene_major": "补发换货",
+    "scene_minor": "会员权益加赠补发",
+    "order_no": "6920873486631711536",
+    "ticket_no": "BH562082745370",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 22:16:41",
+    "last_message_at": "2026-05-09 22:26:19",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「会员权益加赠补发」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 98.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00137",
+    "buyer_nickname": "杨b**",
+    "scene_major": "补发换货",
+    "scene_minor": "破损换货",
+    "order_no": "6920091662302260596",
+    "ticket_no": "BH819557327939",
+    "ticket_type": "resend",
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-10 19:07:35",
+    "last_message_at": "2026-05-10 19:15:01",
+    "image_paths": [
+      "mock_images/broken_pump/S00137_03.jpg"
+    ],
+    "image_types": [
+      "泵头破损"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「破损换货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00141",
+    "buyer_nickname": "段**",
+    "scene_major": "订单服务",
+    "scene_minor": "发票申请",
+    "order_no": "6920263986088953315",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-10 20:53:09",
+    "last_message_at": "2026-05-10 20:59:08",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：315",
+        "hard_words": [
+          "315"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「发票申请」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 149.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00146",
+    "buyer_nickname": "雷**",
+    "scene_major": "售后退货",
+    "scene_minor": "质疑正品退货",
+    "order_no": "6920245332525015651",
+    "ticket_no": "KOC1849368",
+    "ticket_type": "return",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 10:15:29",
+    "last_message_at": "2026-05-11 10:26:12",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "opinion",
+        "level": "medium",
+        "score": 53,
+        "reason": "买家原文命中硬风险词：举报",
+        "hard_words": [
+          "举报"
+        ],
+        "suggested_action": "升级主管介入，避免在公开渠道发酵",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：假货",
+        "hard_words": [
+          "假货"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 98.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00153",
+    "buyer_nickname": "md**",
+    "scene_major": "补发换货",
+    "scene_minor": "会员权益加赠补发",
+    "order_no": "6920205432198259811",
+    "ticket_no": "BH993957600469",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 15:57:34",
+    "last_message_at": "2026-05-11 16:02:54",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「会员权益加赠补发」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00159",
+    "buyer_nickname": "姚b**",
+    "scene_major": "补发换货",
+    "scene_minor": "会员权益加赠补发",
+    "order_no": "6920208613936937938",
+    "ticket_no": "BH959479214460",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 17:25:27",
+    "last_message_at": "2026-05-11 17:32:37",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "medium",
+        "score": 60,
+        "reason": "场景判定为「会员权益加赠补发」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00203",
+    "buyer_nickname": "爱h**",
+    "scene_major": "补发换货",
+    "scene_minor": "破损换货",
+    "order_no": "6920834449460645989",
+    "ticket_no": "BH946416168326",
+    "ticket_type": "resend",
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-13 09:02:15",
+    "last_message_at": "2026-05-13 09:09:35",
+    "image_paths": [
+      "mock_images/broken_pump/S00203_03.jpg"
+    ],
+    "image_types": [
+      "泵头破损"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "medium",
+        "score": 55,
+        "reason": "场景判定为「破损换货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "medium",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 338.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00005",
+    "buyer_nickname": "魏h**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款迟迟不到账",
+    "order_no": "6920223542160114724",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 12:05:11",
+    "last_message_at": "2026-05-05 12:08:51",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 228.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00009",
+    "buyer_nickname": "杨c**",
+    "scene_major": "物流异常",
+    "scene_minor": "显示签收未收到",
+    "order_no": "6920252612630995076",
+    "ticket_no": "WL991067160",
+    "ticket_type": "logistics",
+    "message_count": 10,
+    "buyer_message_count": 5,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-05 14:03:03",
+    "last_message_at": "2026-05-05 14:16:35",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00012",
+    "buyer_nickname": "喵g**",
+    "scene_major": "订单服务",
+    "scene_minor": "预售尾款咨询",
+    "order_no": "6920779722072565829",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 15:22:30",
+    "last_message_at": "2026-05-05 15:32:35",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 35,
+        "reason": "场景判定为「预售尾款咨询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00013",
+    "buyer_nickname": "孙**",
+    "scene_major": "产品咨询",
+    "scene_minor": "优惠与赠品咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 15:58:36",
+    "last_message_at": "2026-05-05 16:05:54",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「优惠与赠品咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00014",
+    "buyer_nickname": "陆**",
+    "scene_major": "物流服务",
+    "scene_minor": "物流查询",
+    "order_no": "6920361931428337283",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-05 16:12:24",
+    "last_message_at": "2026-05-05 16:18:52",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「物流查询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00016",
+    "buyer_nickname": "龙d**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920470451725491723",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-05 16:45:16",
+    "last_message_at": "2026-05-05 16:48:37",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 369.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00017",
+    "buyer_nickname": "不e**",
+    "scene_major": "订单服务",
+    "scene_minor": "预售尾款咨询",
+    "order_no": "6920343456060211393",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 17:48:15",
+    "last_message_at": "2026-05-05 17:54:45",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：什么时候",
+        "hard_words": [
+          "什么时候"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00021",
+    "buyer_nickname": "蒋**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920983614862636274",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 21:07:22",
+    "last_message_at": "2026-05-05 21:12:44",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 289.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00025",
+    "buyer_nickname": "张a**",
+    "scene_major": "产品咨询",
+    "scene_minor": "优惠与赠品咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 22:04:03",
+    "last_message_at": "2026-05-05 22:11:31",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「优惠与赠品咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00026",
+    "buyer_nickname": "深**",
+    "scene_major": "售后退货",
+    "scene_minor": "七天无理由退货",
+    "order_no": "6920288797534357965",
+    "ticket_no": "KOC2683305",
+    "ticket_type": "return",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 22:18:27",
+    "last_message_at": "2026-05-05 22:27:46",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 40,
+        "reason": "场景判定为「七天无理由退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 129.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00028",
+    "buyer_nickname": "胡b**",
+    "scene_major": "物流异常",
+    "scene_minor": "拦截改址",
+    "order_no": "6920221908704748785",
+    "ticket_no": "WL643271665",
+    "ticket_type": "logistics",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-05 22:52:57",
+    "last_message_at": "2026-05-05 23:03:46",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 119.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00041",
+    "buyer_nickname": "杨b**",
+    "scene_major": "产品咨询",
+    "scene_minor": "比价与决策",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 21:50:49",
+    "last_message_at": "2026-05-06 21:59:02",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「比价与决策」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00043",
+    "buyer_nickname": "侯e**",
+    "scene_major": "物流服务",
+    "scene_minor": "催发货",
+    "order_no": "6920230019870235610",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 10:39:22",
+    "last_message_at": "2026-05-07 10:45:54",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：催",
+        "hard_words": [
+          "催"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 256.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00044",
+    "buyer_nickname": "me**",
+    "scene_major": "物流异常",
+    "scene_minor": "物流停滞疑似丢件",
+    "order_no": "6920550052814663911",
+    "ticket_no": "WL631432408",
+    "ticket_type": "logistics",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 5,
+    "first_message_at": "2026-05-07 11:05:01",
+    "last_message_at": "2026-05-07 11:15:57",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00045",
+    "buyer_nickname": "熊g**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920979756112183613",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 11:55:49",
+    "last_message_at": "2026-05-07 12:00:10",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 31,
+        "reason": "买家原文命中硬风险词：还没、怎么还没",
+        "hard_words": [
+          "还没",
+          "怎么还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 69.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00049",
+    "buyer_nickname": "冯e**",
+    "scene_major": "物流服务",
+    "scene_minor": "物流查询",
+    "order_no": "6920931970463042905",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 14:15:31",
+    "last_message_at": "2026-05-07 14:19:41",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「物流查询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 196.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00052",
+    "buyer_nickname": "顾**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920067886399085171",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 16:02:18",
+    "last_message_at": "2026-05-07 16:07:09",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 459.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00056",
+    "buyer_nickname": "深f**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920990836092915322",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 16:50:54",
+    "last_message_at": "2026-05-07 16:57:43",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 31,
+        "reason": "买家原文命中硬风险词：还没、怎么还没",
+        "hard_words": [
+          "还没",
+          "怎么还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 228.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00057",
+    "buyer_nickname": "赵a**",
+    "scene_major": "物流服务",
+    "scene_minor": "物流查询",
+    "order_no": "6920611177078328696",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 17:01:01",
+    "last_message_at": "2026-05-07 17:06:11",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「物流查询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 699.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00061",
+    "buyer_nickname": "me**",
+    "scene_major": "物流服务",
+    "scene_minor": "物流查询",
+    "order_no": "6920941632597572111",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-07 19:16:07",
+    "last_message_at": "2026-05-07 19:21:17",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「物流查询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 128.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00062",
+    "buyer_nickname": "杜a**",
+    "scene_major": "物流服务",
+    "scene_minor": "催发货",
+    "order_no": "6920413704354349960",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 19:41:12",
+    "last_message_at": "2026-05-07 19:48:31",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 31,
+        "reason": "买家原文命中硬风险词：催、什么时候",
+        "hard_words": [
+          "催",
+          "什么时候"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 149.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00063",
+    "buyer_nickname": "蔡**",
+    "scene_major": "物流异常",
+    "scene_minor": "物流停滞疑似丢件",
+    "order_no": "6920958371179868642",
+    "ticket_no": "WL763619183",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-07 20:51:18",
+    "last_message_at": "2026-05-07 20:59:33",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 138.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00066",
+    "buyer_nickname": "姚b**",
+    "scene_major": "订单服务",
+    "scene_minor": "预售尾款咨询",
+    "order_no": "6920360823571199809",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 09:02:39",
+    "last_message_at": "2026-05-08 09:09:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 35,
+        "reason": "场景判定为「预售尾款咨询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 1598.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00069",
+    "buyer_nickname": "罗g**",
+    "scene_major": "产品咨询",
+    "scene_minor": "色号选择",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 09:49:52",
+    "last_message_at": "2026-05-08 10:00:55",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00077",
+    "buyer_nickname": "草**",
+    "scene_major": "物流服务",
+    "scene_minor": "物流查询",
+    "order_no": "6920631140664556058",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-08 16:50:40",
+    "last_message_at": "2026-05-08 16:55:47",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「物流查询」，归属时效风险",
+        "hard_words": [],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00081",
+    "buyer_nickname": "彭g**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920420759701685989",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-08 18:57:05",
+    "last_message_at": "2026-05-08 19:01:19",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 69.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00084",
+    "buyer_nickname": "一g**",
+    "scene_major": "订单服务",
+    "scene_minor": "退款进度查询",
+    "order_no": "6920287348105350379",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-08 19:33:00",
+    "last_message_at": "2026-05-08 19:35:23",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 118.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00085",
+    "buyer_nickname": "高**",
+    "scene_major": "退款打款",
+    "scene_minor": "大促价保补差",
+    "order_no": "6920264329721846346",
+    "ticket_no": "HV4749532746",
+    "ticket_type": "payout",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-08 19:39:04",
+    "last_message_at": "2026-05-08 19:47:01",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 199.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00086",
+    "buyer_nickname": "侯e**",
+    "scene_major": "产品咨询",
+    "scene_minor": "优惠与赠品咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 19:50:10",
+    "last_message_at": "2026-05-08 19:59:50",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「优惠与赠品咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00088",
+    "buyer_nickname": "周a**",
+    "scene_major": "物流异常",
+    "scene_minor": "拦截改址",
+    "order_no": "6920271487133153195",
+    "ticket_no": "WL420040817",
+    "ticket_type": "logistics",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-08 20:19:22",
+    "last_message_at": "2026-05-08 20:27:51",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00091",
+    "buyer_nickname": "戴d**",
+    "scene_major": "产品咨询",
+    "scene_minor": "优惠与赠品咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 21:37:40",
+    "last_message_at": "2026-05-08 21:46:08",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「优惠与赠品咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00095",
+    "buyer_nickname": "罗g**",
+    "scene_major": "会员服务",
+    "scene_minor": "积分兑换咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 5,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-09 09:25:45",
+    "last_message_at": "2026-05-09 09:28:54",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「积分兑换咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00099",
+    "buyer_nickname": "魏h**",
+    "scene_major": "物流服务",
+    "scene_minor": "催发货",
+    "order_no": "6920294005666782721",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 11:28:24",
+    "last_message_at": "2026-05-09 11:34:05",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 31,
+        "reason": "买家原文命中硬风险词：还没、怎么还没",
+        "hard_words": [
+          "还没",
+          "怎么还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 3,
+    "buyer_total_paid": 129.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00102",
+    "buyer_nickname": "高**",
+    "scene_major": "售后退货",
+    "scene_minor": "色号不合适退货",
+    "order_no": "6920798787031463782",
+    "ticket_no": "KOC5630551",
+    "ticket_type": "return",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 14:46:46",
+    "last_message_at": "2026-05-09 14:56:29",
+    "image_paths": [
+      "mock_images/swatch/S00102_05.jpg"
+    ],
+    "image_types": [
+      "色卡"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 35,
+        "reason": "场景判定为「色号不合适退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 169.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00107",
+    "buyer_nickname": "朱**",
+    "scene_major": "物流异常",
+    "scene_minor": "拦截改址",
+    "order_no": "6920493318327777004",
+    "ticket_no": "WL567743389",
+    "ticket_type": "logistics",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 18:45:32",
+    "last_message_at": "2026-05-09 18:58:43",
+    "image_paths": [
+      "mock_images/logistics_screenshot/S00107_03.jpg"
+    ],
+    "image_types": [
+      "物流截图"
+    ],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 799.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00109",
+    "buyer_nickname": "芝b**",
+    "scene_major": "产品咨询",
+    "scene_minor": "正品鉴别咨询",
+    "order_no": "6920463065602093505",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-09 20:13:53",
+    "last_message_at": "2026-05-09 20:22:05",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 43,
+        "reason": "买家原文命中硬风险词：假货",
+        "hard_words": [
+          "假货"
+        ],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "hard_word",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 199.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00117",
+    "buyer_nickname": "钟**",
+    "scene_major": "订单服务",
+    "scene_minor": "发票申请",
+    "order_no": "6920063725709937880",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-10 09:25:00",
+    "last_message_at": "2026-05-10 09:29:15",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「发票申请」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 259.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00132",
+    "buyer_nickname": "王h**",
+    "scene_major": "售后退货",
+    "scene_minor": "色号不合适退货",
+    "order_no": "6920262265086836896",
+    "ticket_no": "KOC2089946",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-10 16:03:45",
+    "last_message_at": "2026-05-10 16:09:37",
+    "image_paths": [
+      "mock_images/swatch/S00132_05.jpg"
+    ],
+    "image_types": [
+      "色卡"
+    ],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 35,
+        "reason": "场景判定为「色号不合适退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 338.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00140",
+    "buyer_nickname": "周**",
+    "scene_major": "产品咨询",
+    "scene_minor": "比价与决策",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-10 20:09:49",
+    "last_message_at": "2026-05-10 20:17:15",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「比价与决策」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00158",
+    "buyer_nickname": "芝h**",
+    "scene_major": "售后退货",
+    "scene_minor": "色号不合适退货",
+    "order_no": "6920704849395042503",
+    "ticket_no": "KOC1677168",
+    "ticket_type": "return",
+    "message_count": 7,
+    "buyer_message_count": 4,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-11 17:04:10",
+    "last_message_at": "2026-05-11 17:10:05",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：急",
+        "hard_words": [
+          "急"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 35,
+        "reason": "场景判定为「色号不合适退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 338.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00161",
+    "buyer_nickname": "曹**",
+    "scene_major": "售后退货",
+    "scene_minor": "七天无理由退货",
+    "order_no": "6920831591561436561",
+    "ticket_no": "KOC3941668",
+    "ticket_type": "return",
+    "message_count": 9,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 17:51:54",
+    "last_message_at": "2026-05-11 17:59:10",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 40,
+        "reason": "场景判定为「七天无理由退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 699.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00162",
+    "buyer_nickname": "兔d**",
+    "scene_major": "售后退货",
+    "scene_minor": "七天无理由退货",
+    "order_no": "6920909586380927697",
+    "ticket_no": "KOC2452224",
+    "ticket_type": "return",
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 17:53:15",
+    "last_message_at": "2026-05-11 18:01:14",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "timeliness",
+        "level": "low",
+        "score": 23,
+        "reason": "买家原文命中硬风险词：还没",
+        "hard_words": [
+          "还没"
+        ],
+        "suggested_action": "优先响应，同步最新时效",
+        "source": "hard_word",
+        "evidence_ref": ""
+      },
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 40,
+        "reason": "场景判定为「七天无理由退货」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00169",
+    "buyer_nickname": "姜**",
+    "scene_major": "产品咨询",
+    "scene_minor": "比价与决策",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 3,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-11 21:06:19",
+    "last_message_at": "2026-05-11 21:10:23",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「比价与决策」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00226",
+    "buyer_nickname": "不h**",
+    "scene_major": "订单服务",
+    "scene_minor": "发票申请",
+    "order_no": "6920650903209003951",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-13 20:19:29",
+    "last_message_at": "2026-05-13 20:27:53",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "compliance",
+        "level": "low",
+        "score": 30,
+        "reason": "场景判定为「发票申请」，归属合规风险",
+        "hard_words": [],
+        "suggested_action": "回复前过知识库禁用词校验，不得承诺赔付金额",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00322",
+    "buyer_nickname": "熊a**",
+    "scene_major": "会员服务",
+    "scene_minor": "积分兑换咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-17 12:10:04",
+    "last_message_at": "2026-05-17 12:15:05",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「积分兑换咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00364",
+    "buyer_nickname": "万**",
+    "scene_major": "会员服务",
+    "scene_minor": "积分兑换咨询",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 6,
+    "buyer_message_count": 2,
+    "agent_message_count": 3,
+    "first_message_at": "2026-05-18 20:56:35",
+    "last_message_at": "2026-05-18 21:03:49",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [
+      {
+        "category": "experience",
+        "level": "low",
+        "score": 25,
+        "reason": "场景判定为「积分兑换咨询」，归属体验风险",
+        "hard_words": [],
+        "suggested_action": "核查工单闭环状态，主动同步进展",
+        "source": "scene",
+        "evidence_ref": ""
+      }
+    ],
+    "overall_risk": "low",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00002",
+    "buyer_nickname": "冯h**",
+    "scene_major": "产品咨询",
+    "scene_minor": "套装搭配推荐",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 10:37:44",
+    "last_message_at": "2026-05-05 10:43:33",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00019",
+    "buyer_nickname": "梁**",
+    "scene_major": "产品咨询",
+    "scene_minor": "色号选择",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-05 20:53:14",
+    "last_message_at": "2026-05-05 21:01:22",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00030",
+    "buyer_nickname": "郭h**",
+    "scene_major": "其他服务",
+    "scene_minor": "好评回访",
+    "order_no": "6920257770434007452",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-06 09:05:48",
+    "last_message_at": "2026-05-06 09:10:15",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 98.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00036",
+    "buyer_nickname": "薛**",
+    "scene_major": "产品咨询",
+    "scene_minor": "套装搭配推荐",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-06 15:04:08",
+    "last_message_at": "2026-05-06 15:14:43",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00067",
+    "buyer_nickname": "桃b**",
+    "scene_major": "产品咨询",
+    "scene_minor": "色号选择",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 09:29:12",
+    "last_message_at": "2026-05-08 09:38:48",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00080",
+    "buyer_nickname": "杜a**",
+    "scene_major": "产品咨询",
+    "scene_minor": "套装搭配推荐",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 8,
+    "buyer_message_count": 4,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 18:40:38",
+    "last_message_at": "2026-05-08 18:50:32",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00092",
+    "buyer_nickname": "黎**",
+    "scene_major": "产品咨询",
+    "scene_minor": "使用方法",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-08 21:49:44",
+    "last_message_at": "2026-05-08 21:55:13",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00106",
+    "buyer_nickname": "雾c**",
+    "scene_major": "其他服务",
+    "scene_minor": "好评回访",
+    "order_no": "6920143239199871415",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-09 17:52:50",
+    "last_message_at": "2026-05-09 17:55:26",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 159.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00113",
+    "buyer_nickname": "唐**",
+    "scene_major": "产品咨询",
+    "scene_minor": "使用方法",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-09 21:37:03",
+    "last_message_at": "2026-05-09 21:42:25",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00130",
+    "buyer_nickname": "刘**",
+    "scene_major": "其他服务",
+    "scene_minor": "好评回访",
+    "order_no": "6920813108987317881",
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 4,
+    "buyer_message_count": 2,
+    "agent_message_count": 2,
+    "first_message_at": "2026-05-10 14:10:51",
+    "last_message_at": "2026-05-10 14:14:38",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 2,
+    "buyer_total_paid": 1398.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  },
+  {
+    "session_id": "S00151",
+    "buyer_nickname": "方**",
+    "scene_major": "产品咨询",
+    "scene_minor": "使用方法",
+    "order_no": null,
+    "ticket_no": null,
+    "ticket_type": null,
+    "message_count": 7,
+    "buyer_message_count": 3,
+    "agent_message_count": 4,
+    "first_message_at": "2026-05-11 15:27:28",
+    "last_message_at": "2026-05-11 15:35:39",
+    "image_paths": [],
+    "image_types": [],
+    "risks": [],
+    "overall_risk": "none",
+    "evidence_mismatch": [],
+    "buyer_visit_count": 1,
+    "buyer_total_paid": 0.0,
+    "demo_pinned": false,
+    "demo_note": ""
+  }
+]

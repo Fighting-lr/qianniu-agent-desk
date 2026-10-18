@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commit"
+  short_description: "Commit changes, handle submodules, push all remotes."
+  default_prompt: "Use $git-commit to inspect local git changes, commit dirty submodules first, commit the parent repo, and push the current branch to every remote."

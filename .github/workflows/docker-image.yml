@@ -1,0 +1,94 @@
+name: Docker Image
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  IMAGE_NAME: ${{ github.repository_owner }}/agent-desk
+
+jobs:
+  build:
+    name: Build and push Docker image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Docker Hub credentials
+        id: check_creds
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          if [ -z "${DOCKERHUB_USERNAME}" ] || [ -z "${DOCKERHUB_TOKEN}" ]; then
+            echo "Notice: Secret DOCKERHUB_USERNAME or DOCKERHUB_TOKEN not configured. Skipping build."
+            echo "has_creds=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "has_creds=true" >> $GITHUB_OUTPUT
+
+      - name: Set up QEMU
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Extract Docker metadata
+        if: steps.check_creds.outputs.has_creds == 'true'
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=tag
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=latest,enable=${{ !contains(github.ref_name, '-') }}
+
+      - name: Extract LanceDB Docker metadata
+        if: steps.check_creds.outputs.has_creds == 'true'
+        id: meta-lancedb
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=tag
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=latest,enable=${{ !contains(github.ref_name, '-') }}
+          flavor: |
+            suffix=-lancedb,onlatest=true
+
+      - name: Build and push
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          target: app
+          platforms: linux/amd64
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Build and push LanceDB
+        if: steps.check_creds.outputs.has_creds == 'true'
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          target: app-lancedb
+          platforms: linux/amd64
+          push: true
+          tags: ${{ steps.meta-lancedb.outputs.tags }}
+          labels: ${{ steps.meta-lancedb.outputs.labels }}

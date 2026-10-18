@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="ar3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#0E3B4A"/>
+    </marker>
+  </defs>
+  <text x="450" y="24" text-anchor="middle" font-size="15" font-weight="700" fill="#0E3B4A">建议生成流程（坐席点开会话）——三条异常分支全覆盖</text>
+
+  <!-- 主轴节点 -->
+  <g font-size="12.5" text-anchor="middle">
+    <rect x="290" y="42"  width="240" height="44" rx="22" fill="#0E3B4A"/>
+    <text x="410" y="69" fill="#FFFFFF" font-weight="700">客服选中会话</text>
+
+    <rect x="290" y="116" width="240" height="44" rx="8" fill="#E8F1F3" stroke="#3E7C93"/>
+    <text x="410" y="138" fill="#0E3B4A">请求面板数据</text>
+    <text x="410" y="153" fill="#5B686D" font-size="10.5">GET /cs-risk/conversation</text>
+
+    <!-- 菱形1 -->
+    <polygon points="410,190 550,236 410,282 270,236" fill="#FFF8E1" stroke="#C9A227"/>
+    <text x="410" y="232" fill="#0E3B4A" font-weight="700">风险数据已关联?</text>
+    <text x="410" y="250" fill="#8A7413" font-size="10.5">conversationId &gt; 0</text>
+
+    <!-- 菱形2 -->
+    <polygon points="410,312 550,358 410,404 270,358" fill="#FFF8E1" stroke="#C9A227"/>
+    <text x="410" y="354" fill="#0E3B4A" font-weight="700">会话已关闭?</text>
+    <text x="410" y="372" fill="#8A7413" font-size="10.5">status = 4</text>
+
+    <rect x="290" y="434" width="240" height="52" rx="8" fill="#E8F1F3" stroke="#0E3B4A"/>
+    <text x="410" y="456" fill="#0E3B4A" font-weight="700">调用大模型</text>
+    <text x="410" y="474" fill="#5B686D" font-size="10.5">JSON mode · thinking 关闭 · ≤15s 超时</text>
+
+    <!-- 菱形3 -->
+    <polygon points="410,516 550,562 410,608 270,562" fill="#FFF8E1" stroke="#C9A227"/>
+    <text x="410" y="558" fill="#0E3B4A" font-weight="700">返回合法 JSON?</text>
+    <text x="410" y="576" fill="#8A7413" font-size="10.5">失败自动重试 1 次</text>
+
+    <!-- 菱形4 -->
+    <polygon points="410,638 550,684 410,730 270,684" fill="#FFF8E1" stroke="#C9A227"/>
+    <text x="410" y="680" fill="#0E3B4A" font-weight="700">风险 = 危急/高危?</text>
+    <text x="410" y="698" fill="#8A7413" font-size="10.5">分值 ≥ 30</text>
+
+    <rect x="290" y="760" width="240" height="44" rx="22" fill="#2E7D5B"/>
+    <text x="410" y="787" fill="#FFFFFF" font-weight="700">渲染至「回复建议」Tab</text>
+  </g>
+
+  <!-- 主轴箭头 -->
+  <g stroke="#0E3B4A" stroke-width="1.6" marker-end="url(#ar3)">
+    <line x1="410" y1="86"  x2="410" y2="112"/>
+    <line x1="410" y1="160" x2="410" y2="186"/>
+    <line x1="410" y1="282" x2="410" y2="308"/>
+    <line x1="410" y1="404" x2="410" y2="430"/>
+    <line x1="410" y1="486" x2="410" y2="512"/>
+    <line x1="410" y1="608" x2="410" y2="634"/>
+    <line x1="410" y1="730" x2="410" y2="756"/>
+  </g>
+  <g font-size="10.5" fill="#0E3B4A">
+    <text x="418" y="280">是</text>
+    <text x="418" y="402">否</text>
+    <text x="418" y="512">是</text>
+  </g>
+
+  <!-- 右侧分支 -->
+  <g font-size="12" text-anchor="middle">
+    <!-- 分支1：未关联 -->
+    <rect x="620" y="212" width="240" height="48" rx="8" fill="#F2F4F5" stroke="#8A969B"/>
+    <text x="740" y="232" fill="#5B686D">洞察 Tab 空态</text>
+    <text x="740" y="249" fill="#8A969B" font-size="10.5">「暂无风险，正常接待」</text>
+
+    <!-- 分支2：已关闭 -->
+    <rect x="620" y="334" width="240" height="48" rx="8" fill="#F2F4F5" stroke="#8A969B"/>
+    <text x="740" y="354" fill="#5B686D">「会话已关闭」空态</text>
+    <text x="740" y="371" fill="#C2453D" font-size="10.5">不调用模型 · 实测 0.06s 返回</text>
+
+    <!-- 分支3：降级 -->
+    <rect x="620" y="538" width="240" height="48" rx="8" fill="#FBE9E7" stroke="#C2453D"/>
+    <text x="740" y="558" fill="#C2453D">fallback=true 降级展示</text>
+    <text x="740" y="575" fill="#7A5450" font-size="10.5">规则命中要点 + 降级原因</text>
+
+    <!-- 分支4：锁定 -->
+    <rect x="620" y="660" width="240" height="48" rx="8" fill="#FBE9E7" stroke="#D9822B"/>
+    <text x="740" y="680" fill="#B36A17" font-weight="700">locked=true 锁定态</text>
+    <text x="740" y="697" fill="#7A5450" font-size="10.5">话术为空 · 仅 AI 处置要点</text>
+  </g>
+
+  <!-- 分支箭头与标注 -->
+  <g stroke="#0E3B4A" stroke-width="1.5" marker-end="url(#ar3)">
+    <line x1="550" y1="236" x2="616" y2="236"/>
+    <line x1="550" y1="358" x2="616" y2="358"/>
+    <line x1="550" y1="562" x2="616" y2="562"/>
+    <line x1="550" y1="684" x2="616" y2="684"/>
+  </g>
+  <g font-size="10.5" fill="#0E3B4A">
+    <text x="560" y="230">否</text>
+    <text x="560" y="352">是</text>
+    <text x="560" y="556">否</text>
+    <text x="560" y="678">是</text>
+  </g>
+  <g font-size="10.5" fill="#0E3B4A">
+    <text x="418" y="726">否（中危/低危）</text>
+  </g>
+  <text x="450" y="812" text-anchor="middle" font-size="11" fill="#8A969B">全程不阻塞聊天：建议请求独立于面板首屏，模型慢/挂均不影响洞察与全景渲染</text>
+</svg>

@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  backend-test:
+    name: Go Build & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: 'go.mod'
+          check-latest: true
+
+      - name: Cache Go modules
+        uses: actions/cache@v4
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Ensure Frontend Asset Directory
+        run: |
+          mkdir -p web/out
+          touch web/out/.gitkeep
+
+      - name: Go Test
+        run: |
+          go test -v ./internal/services -run "TestDeriveRisks|TestClassifyScene|TestAllSceneMinors|TestOfficialMajors|TestSceneMajor|TestSceneRiskLevel"
+
+      - name: Go Build Server
+        run: |
+          go build -v -o /dev/null ./cmd/server
+
+      - name: Go Build Seed Tool
+        run: |
+          go build -v -o /dev/null ./cmd/seed

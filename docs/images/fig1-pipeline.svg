@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <marker id="ar1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#0E3B4A"/>
+    </marker>
+  </defs>
+  <text x="450" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#0E3B4A">S1 → S2 → S3　AI 处理流水线</text>
+
+  <!-- 六个节点 -->
+  <g font-size="12.5" text-anchor="middle">
+    <rect x="4"    y="66" width="130" height="64" rx="8" fill="#F4F7F8" stroke="#8A969B"/>
+    <text x="69"   y="92" fill="#0E3B4A" font-weight="700">千牛会话数据</text>
+    <text x="69"   y="110" fill="#5B686D" font-size="11">赛题 MOCK xlsx</text>
+
+    <rect x="158"  y="66" width="130" height="64" rx="8" fill="#F4F7F8" stroke="#8A969B"/>
+    <text x="223"  y="92" fill="#0E3B4A" font-weight="700">导入管道</text>
+    <text x="223"  y="110" fill="#5B686D" font-size="11">清洗 · 会话聚合</text>
+
+    <rect x="312"  y="66" width="130" height="64" rx="8" fill="#E8F1F3" stroke="#0E3B4A"/>
+    <text x="377"  y="88" fill="#0E3B4A" font-weight="700">S1 意图识别</text>
+    <text x="377"  y="105" fill="#5B686D" font-size="11">场景归类</text>
+    <text x="377"  y="120" fill="#5B686D" font-size="11">10 大类 / 41 小类</text>
+
+    <rect x="466"  y="66" width="130" height="64" rx="8" fill="#E8F1F3" stroke="#0E3B4A"/>
+    <text x="531"  y="88" fill="#0E3B4A" font-weight="700">S2 风险计算</text>
+    <text x="531"  y="105" fill="#5B686D" font-size="11">规则引擎 + 权重</text>
+    <text x="531"  y="120" fill="#5B686D" font-size="11">五级风险分值</text>
+
+    <rect x="620"  y="66" width="130" height="64" rx="8" fill="#E8F1F3" stroke="#0E3B4A"/>
+    <text x="685"  y="88" fill="#0E3B4A" font-weight="700">S3 建议生成</text>
+    <text x="685"  y="105" fill="#5B686D" font-size="11">三档语气 / 处置要点</text>
+    <text x="685"  y="120" fill="#5B686D" font-size="11">JSON 结构化输出</text>
+
+    <rect x="774"  y="66" width="122" height="64" rx="8" fill="#FDF3E7" stroke="#D9822B"/>
+    <text x="835"  y="88" fill="#0E3B4A" font-weight="700">数据落库</text>
+    <text x="835"  y="105" fill="#5B686D" font-size="11">会话上下文</text>
+    <text x="835"  y="120" fill="#5B686D" font-size="11">风险事件</text>
+  </g>
+
+  <!-- 箭头 -->
+  <g stroke="#0E3B4A" stroke-width="1.6" marker-end="url(#ar1)">
+    <line x1="134" y1="98" x2="154" y2="98"/>
+    <line x1="288" y1="98" x2="308" y2="98"/>
+    <line x1="442" y1="98" x2="462" y2="98"/>
+    <line x1="596" y1="98" x2="616" y2="98"/>
+    <line x1="750" y1="98" x2="770" y2="98"/>
+  </g>
+
+  <!-- 风险等级色带 -->
+  <text x="450" y="176" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0E3B4A">S2 输出的会话风险分级（驱动下游所有展示）</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="60"  y="192" width="156" height="44" rx="6" fill="#FBE9E7" stroke="#C2453D"/>
+    <text x="138" y="211" fill="#C2453D" font-weight="700">危急 critical · 40 分</text>
+    <text x="138" y="227" fill="#7A5450" font-size="10.5">锁定话术 · 仅处置要点</text>
+
+    <rect x="232" y="192" width="156" height="44" rx="6" fill="#FDEFE3" stroke="#D9822B"/>
+    <text x="310" y="211" fill="#B36A17" font-weight="700">高危 high · 30–39</text>
+    <text x="310" y="227" fill="#7A5450" font-size="10.5">锁定话术 · 仅处置要点</text>
+
+    <rect x="404" y="192" width="156" height="44" rx="6" fill="#FFF8E1" stroke="#C9A227"/>
+    <text x="482" y="211" fill="#8A7413" font-weight="700">中危 medium · 15–29</text>
+    <text x="482" y="227" fill="#6E6435" font-size="10.5">三档语气话术</text>
+
+    <rect x="576" y="192" width="156" height="44" rx="6" fill="#E8F1F3" stroke="#3E7C93"/>
+    <text x="654" y="211" fill="#2E5F70" font-weight="700">低危 low · 1–14</text>
+    <text x="654" y="227" fill="#4E6A73" font-size="10.5">三档语气话术</text>
+
+    <rect x="748" y="192" width="156" height="44" rx="6" fill="#F2F4F5" stroke="#8A969B"/>
+    <text x="826" y="211" fill="#5B686D" font-weight="700">无 none · 0</text>
+    <text x="826" y="227" fill="#7C878C" font-size="10.5">正常接待 · 无建议</text>
+  </g>
+  <text x="450" y="272" text-anchor="middle" font-size="11" fill="#8A969B">实测基线：138 个会话 / 180 条风险事件 · 危急 10 · 高危 28 · 中危 43 · 低危 46 · 无 11</text>
+</svg>

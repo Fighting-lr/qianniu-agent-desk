@@ -1,0 +1,11 @@
+services:
+  agent-desk:
+    image: mlogclub/agent-desk:latest-lancedb
+    restart: unless-stopped
+    ports:
+      - "8083:8083"
+    volumes:
+      - ./docker/agent-desk-sqlite-lancedb.yaml:/app/config/config.yaml:ro
+      - ./data:/app/data
+    environment:
+      TZ: Asia/Shanghai

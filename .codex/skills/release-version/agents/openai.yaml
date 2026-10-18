@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Version"
+  short_description: "Create semver tags and changelog drafts"
+  default_prompt: "Use $release-version to create a new vx.y.z release, update changelogs, and push docs plus tags."

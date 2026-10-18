@@ -1,0 +1,44 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: cs_ai_agent
+      MYSQL_USER: cs_ai_agent
+      MYSQL_PASSWORD: cs_ai_agent_password
+      MYSQL_ROOT_PASSWORD: cs_ai_agent_root_password
+      TZ: Asia/Shanghai
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u\"$${MYSQL_USER}\" -p\"$${MYSQL_PASSWORD}\" --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  agent-desk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: app-lancedb
+      args:
+        LANCEDB_VERSION: v0.1.2
+    image: mlogclub/agent-desk:latest-lancedb
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8083:8083"
+    volumes:
+      - agent-desk-data:/app/data
+      - ./docker/agent-desk-lancedb.yaml:/app/config/config.yaml:ro
+    environment:
+      TZ: Asia/Shanghai
+
+volumes:
+  mysql-data:
+  agent-desk-data:
